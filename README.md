@@ -2,7 +2,7 @@
 
 This repository contains code used during the Fall 2017 semester of *MCHE474: Control Systems* at UL Lafayette. It will contain Python code, [Jupyter Notebooks](http://jupyter.org), supporting data, and [LaTeX](http://www.latex-project.org) templates.
 
-For more information see: http://www.ucs.louisiana.edu/~jev9637/MCHE485.html
+For more information see: http://www.ucs.louisiana.edu/~jev9637/MCHE474.html
 
 
 ### Licenses
