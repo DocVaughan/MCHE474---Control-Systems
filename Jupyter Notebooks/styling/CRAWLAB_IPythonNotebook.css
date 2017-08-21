@@ -1,51 +1,52 @@
 <style>
-@font-face {
-    font-family: "Computer Modern";
-    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
-  }
-  @font-face {
-    font-family: "Computer Modern";
-    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsx.otf');
-    font-weight: bold;
-  }
-  @font-face {
-    font-family: "Computer Modern";
-    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsi.otf');
-    font-style: italic, oblique;
-  }
-  @font-face {
-    font-family: "Computer Modern";
-    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunbxo.otf');
-    font-weight: bold;
-    font-style: italic, oblique;
-  }
+    @font-face {
+        font-family: "Computer Modern";
+        src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+    }
+    @font-face {
+        font-family: "Computer Modern";
+        src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsx.otf');
+        font-weight: bold;
+    }
+    @font-face {
+        font-family: "Computer Modern";
+        src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsi.otf');
+        font-style: oblique;
+    }
+    @font-face {
+        font-family: "Computer Modern";
+        src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunso.otf');
+        font-weight: bold;
+        font-style: oblique;
+    }
+
     
     div.cell{
-        max-width:1100px !important;
-        margin-left:auto !important;
-        margin-right:auto !important;
+        max-width:1100px;
+        margin-left:auto;
+        margin-right:auto;
     }
     
     h1 {
-        font-family: Computer Modern !important;
+        font-family: Computer Modern;
     }
     
     h4{
-        margin-top:12px !important;
-        margin-bottom: 3px !important;
+        margin-top:12px;
+        margin-bottom: 3px;
        }
 
     div.text_cell_render{
-        font-family: Computer Modern, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif !important;
-        line-height: 145% !important;
-        font-size: 130% !important;
-        max-width:1100px !important;
-        margin-left:auto !important;
-        margin-right:auto !important;
+        font-family: Computer Modern, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+        line-height: 145%;
+        font-size: 130%;
+        max-width:1100px;
+        margin-left:auto;
+        margin-right:auto;
     }
     
     .CodeMirror{
-            font-family: "Source Code Pro", source-code-pro, Consolas, monospace !important;
+            font-family: "Source Code Pro", source-code-pro, Consolas, monospace;
     }
     
     .warning{
@@ -53,30 +54,30 @@
         }  
     
     hr.style-end {
-    border: 0 !important;
-    height: 1px !important;
-    text-align: center !important;
-    background: #333 !important;
-    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc) !important; 
-    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc) !important; 
-    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc) !important; 
-    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc) !important; 
+    border: 0;
+    height: 1px;
+    text-align: center;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc); 
     }
 
     hr.style-end:after {
-    content: "⚜" !important;
-    display: inline-block !important;
-    position: relative !important; 
-    top: -0.5em !important;  
-    font-size: 1.5em !important;
-    padding: 0 0.25em !important;
-    background: white !important;
+    content: "⚜";
+    display: inline-block;
+    position: relative; 
+    top: -0.5em;  
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
     }
     
 /*  Center figures, etc
     .ui-wrapper {
-        margin-left: auto !important !important;
-        margin-right: auto !important !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
     }
  */
     
@@ -94,5 +95,5 @@
                 "HTML-CSS": {
                     styles: {'.MathJax_Display': {"margin": 4}}
                 }
-        }) !important;
+        });
 </script>
