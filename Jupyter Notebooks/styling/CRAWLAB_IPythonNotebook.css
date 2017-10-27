@@ -1,3 +1,19 @@
+<script>
+    MathJax.Hub.Config({
+                        TeX: {
+                           extensions: ["AMSmath.js"]
+                           },
+                tex2jax: {
+                    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                    displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+                },
+                displayAlign: 'center', // Change this to 'center' to center equations.
+                "HTML-CSS": {
+                    styles: {'.MathJax_Display': {"margin": 4}}
+                }
+        });
+</script>
+
 <style>
     @font-face {
         font-family: "Computer Modern";
@@ -20,58 +36,54 @@
         font-style: oblique;
     }
 
-    
-    div.cell{
-        max-width:1100px;
-        margin-left:auto;
-        margin-right:auto;
+    div.cell {
+        max-width: 1100px;
     }
     
     h1 {
         font-family: Computer Modern;
     }
     
-    h4{
-        margin-top:12px;
+    h4 {
+        margin-top: 12px;
         margin-bottom: 3px;
-       }
+    }
 
-    div.text_cell_render{
+    div.text_cell_render {
         font-family: Computer Modern, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
         line-height: 145%;
         font-size: 130%;
-        max-width:1100px;
-        margin-left:auto;
-        margin-right:auto;
+        width: 100%;
+        max-width: 1100px;
     }
     
-    .CodeMirror{
-            font-family: "Source Code Pro", source-code-pro, Consolas, monospace;
+    .CodeMirror {
+        font-family: "Source Code Pro", source-code-pro, Consolas, monospace;
     }
     
-    .warning{
+    .warning {
         color: rgb( 240, 20, 20 )
-        }  
-    
+    }  
+  
+   
     hr.style-end {
-    border: 0;
-    height: 1px;
-    text-align: center;
-    background: #333;
-    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
-    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
-    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
-    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc); 
+        border: 0px;
+        height: 2px;
+        text-align: center;
+        background: #333;
+        background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
+        background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
+        background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
+        background-image:      -o-linear-gradient(left, #ccc, #333, #ccc); 
     }
 
     hr.style-end:after {
-    content: "⚜";
-    display: inline-block;
-    position: relative; 
-    top: -0.5em;  
-    font-size: 1.5em;
-    padding: 0 0.25em;
-    background: white;
+        content: &#x269C;
+        left: 50%;
+        position: absolute;
+        /* Controls the whitespace around the symbol */
+        padding: 0px;
+        background: #fff;
     }
     
 /*  Center figures, etc
@@ -79,21 +91,6 @@
         margin-left: auto !important;
         margin-right: auto !important;
     }
- */
+*/
     
 </style>
-<script>
-    MathJax.Hub.Config({
-                        TeX: {
-                           extensions: ["AMSmath.js"]
-                           },
-                tex2jax: {
-                    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-                    displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
-                },
-                displayAlign: 'center', // Change this to 'center' to center equations.
-                "HTML-CSS": {
-                    styles: {'.MathJax_Display': {"margin": 4}}
-                }
-        });
-</script>
