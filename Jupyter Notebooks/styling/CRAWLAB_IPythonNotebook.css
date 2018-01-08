@@ -67,23 +67,23 @@
   
    
     hr.style-end {
-        border: 0px;
-        height: 1px;
-        text-align: center;
-        background: #333;
-        background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
-        background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
-        background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
-        background-image:      -o-linear-gradient(left, #ccc, #333, #ccc); 
+        border: 0px !important;
+        height: 1px !important;
+        text-align: center !important;
+        background: #333 !important;
+        background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc) !important; 
+        background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc) !important; 
+        background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc) !important; 
+        background-image:      -o-linear-gradient(left, #ccc, #333, #ccc) !important; 
     }
 
     hr.style-end:after {
-        content: &#x269C;
-        left: 50%;
-        position: absolute;
+        content: &#x269C !important;
+        left: 50% !important;
+        position: absolute !important;
         /* Controls the whitespace around the symbol */
-        padding: 0px;
-        background: #fff;
+        padding: 0px !important;
+        background: #fff !important;
     }
     
 /*  Center figures, etc
